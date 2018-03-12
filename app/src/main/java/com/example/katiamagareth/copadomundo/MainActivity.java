@@ -7,17 +7,24 @@ package com.example.katiamagareth.copadomundo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.app.Activity;
 import android.view.View;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    private Spinner selecao;
+    private TextView selecao1;
+    private TextView selecao2;
+    private TextView selecao3;
+    private TextView selecao4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        selecao = (Spinner)findViewById(R.id.spinnerSelectGroup);
+        selecao = (Spinner)findViewById(R.id.spinnerGrupos);
         selecao1 = findViewById(R.id.textSelecao1);
         selecao2 = findViewById(R.id.textSelecao2);
         selecao3 = findViewById(R.id.textSelecao3);
@@ -34,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
                 selecao2.setText("Rússia");
                 selecao3.setText("Arábia Saudita");
                 selecao4.setText("Uruguai");
-                breake;
+                break;
             case "GRUPO B":
                 selecao1.setText("Irã");
                 selecao2.setText("Marrocos");
                 selecao3.setText("Portugal");
                 selecao4.setText("Espanha");
-                brake
+                break;
             case "GRUPO C":
                 selecao1.setText("Austrália");
                 selecao2.setText("Dinamarca");

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.katiamagareth.copadomundo.MainActivity">
 
     <TextView
@@ -16,9 +17,9 @@
         tools:layout_editor_absoluteY="92dp" />
 
     <Spinner
-        android:id="@+id/spinnerSelectGroup"
-        android:layout_width="59dp"
-        android:layout_height="34dp"
+        android:id="@+id/spinnerGrupos"
+        android:layout_width="150dp"
+        android:layout_height="31dp"
         android:entries="@array/grupos" />
 
     <TextView

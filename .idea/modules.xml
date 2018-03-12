@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CopaDoMundo.iml" filepath="$PROJECT_DIR$/CopaDoMundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AtividadeSelecaoDeGruposCopaDoMundoAplicativosMoveis.iml" filepath="$PROJECT_DIR$/AtividadeSelecaoDeGruposCopaDoMundoAplicativosMoveis.iml" />
+      <module fileurl="file://C:\Users\opet\Desktop\AtividadeSelecaoDeGruposCopaDoMundoAplicativosMoveis\CopaDoMundo.iml" filepath="C:\Users\opet\Desktop\AtividadeSelecaoDeGruposCopaDoMundoAplicativosMoveis\CopaDoMundo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\opet\Desktop\AtividadeSelecaoDeGruposCopaDoMundoAplicativosMoveis\app\app.iml" filepath="C:\Users\opet\Desktop\AtividadeSelecaoDeGruposCopaDoMundoAplicativosMoveis\app\app.iml" />
     </modules>
   </component>
 </project>
