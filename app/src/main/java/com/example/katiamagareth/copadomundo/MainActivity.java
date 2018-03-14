@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -18,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView selecao2;
     private TextView selecao3;
     private TextView selecao4;
+    private ImageView imagem1;
+    private ImageView imagem2;
+    private ImageView imagem3;
+    private ImageView imagem4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         selecao2 = findViewById(R.id.textSelecao2);
         selecao3 = findViewById(R.id.textSelecao3);
         selecao4 = findViewById(R.id.textSelecao4);
+
     }
 
     public void click(View v){
@@ -38,9 +44,13 @@ public class MainActivity extends AppCompatActivity {
         switch (opcao){
             case "GRUPO A":
                 selecao1.setText("Egito");
+                imagem1.setImageResource(R.mipmap.escudo_egito_round);
                 selecao2.setText("Rússia");
+                imagem2.setImageResource(R.mipmap.escudo_russia_round);
                 selecao3.setText("Arábia Saudita");
+                imagem3.setImageResource(R.mipmap.escudo_arabia_saudita_round);
                 selecao4.setText("Uruguai");
+                imagem4.setImageResource(R.mipmap.escudo_uruguai_round);
                 break;
             case "GRUPO B":
                 selecao1.setText("Irã");

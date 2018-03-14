@@ -37,7 +37,12 @@
         android:id="@+id/textSelecao1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Seleção 1"/>
+        android:text="Seleção 1" />
+
+    <ImageView
+        android:id="@+id/imagem1"
+        android:layout_width="33dp"
+        android:layout_height="26dp" />
 
     <TextView
         android:id="@+id/textSelecao2"
@@ -45,11 +50,21 @@
         android:layout_height="wrap_content"
         android:text="Seleção 2"/>
 
+    <ImageView
+        android:id="@+id/imagem2"
+        android:layout_width="33dp"
+        android:layout_height="26dp" />
+
     <TextView
         android:id="@+id/textSelecao3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Seleção 3" />
+
+    <ImageView
+        android:id="@+id/imagem3"
+        android:layout_width="33dp"
+        android:layout_height="26dp" />
 
     <TextView
         android:id="@+id/textSelecao4"
@@ -57,11 +72,16 @@
         android:layout_height="wrap_content"
         android:text="Seleção 4"/>
 
+    <ImageView
+        android:id="@+id/imagem4"
+        android:layout_width="33dp"
+        android:layout_height="26dp" />
+
     <Button
         android:id="@+id/Visualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="click"
-        android:text="Visualizar"/>
+        android:text="Visualizar" />
 
 </LinearLayout>
